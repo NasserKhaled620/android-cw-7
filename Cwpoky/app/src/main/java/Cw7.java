@@ -5,6 +5,14 @@ public class Cw7 {
     private int defence;
     private int total;
 
+    public Cw7(String name, int image, int attack, int defence, int total) {
+        this.name = name;
+        this.image = image;
+        this.attack = attack;
+        this.defence = defence;
+        this.total = total;
+    }
+
     public String getName() {
         return name;
     }
